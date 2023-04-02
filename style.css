@@ -25,7 +25,7 @@ body {
   border-radius: 5px;
 }
 
-.answer {
+.answear {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,26 +34,26 @@ body {
   margin-top: 2rem;
 }
 
-.answer--correct {
+.answear--correct {
   background-color: limegreen;
   color: white;
 }
 
-.answer--wrong {
+.answear--wrong {
   background-color: red;
   color: white;
 }
 
-.answer__icon {
+.answear__icon {
   width: 2rem;
   height: 2rem;
   background-size: contain;
 }
 
-.answer--correct .answer__icon {
+.answear--correct .answear__icon {
   background-image: url('img/check.svg');
 }
 
-.answer--wrong .answer__icon {
+.answear--wrong .answear__icon {
   background-image: url('img/cross.svg');
 }
